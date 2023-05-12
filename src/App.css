@@ -32,7 +32,34 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+.inputBox {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.decrementButton,
+.incrementButton {
+  background-color: black;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.decrementButton>a,
+.incrementButton>a {
+
+  color: white;
 }
